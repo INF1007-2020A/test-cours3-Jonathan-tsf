@@ -13,7 +13,7 @@ def capitaliser_pays(nom):
     if place != -1:
         print(place)
         nom = list(nom)
-        list(nom)[place + 1]
+        nom[place + 1] = nom[place + 1]
         nom = ''.join(nom)
     return nom
 
