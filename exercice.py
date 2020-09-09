@@ -11,7 +11,7 @@ def capitaliser_pays(nom):
     place = nom.find('-')
 
     if place != -1:
-        print
+        print()
         nom = list(nom)[place+1].upper()
         nom = ''.join(nom)
     return nom
@@ -19,7 +19,7 @@ def capitaliser_pays(nom):
 
 if __name__ == '__main__':
     pays = [
-        'Guinea-bi'
+        'Guinea-bisAu'
         'AfghanIstan',
         'albania',
         'algeria',
