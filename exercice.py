@@ -6,7 +6,7 @@ def capitaliser_pays(nom):
     for i in range(len(nom)):
         if nom[i] != "and":
             nom[i].capitalize()
-        else if
+        elif nom[i] == "and"
     return nom
 
 
