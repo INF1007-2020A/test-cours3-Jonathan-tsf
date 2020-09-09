@@ -3,7 +3,7 @@
 def capitaliser_pays(nom):
     nom = nom.split(' ')
     nom = [nom[i].upper() for i in range(len(nom))]
-    
+    for i in range(len)
     return nom
 
 
