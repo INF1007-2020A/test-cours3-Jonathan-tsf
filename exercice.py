@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     nom = nom.split(' ')
-    nom = [nom[i].upper() for i in range(len(nom))]
+    nom = [nom[i].lower() for i in range(len(nom))]
     for i in range(len(nom)):
         if nom[i] != "and":
-            nom[i].capitalize()
-        elif nom[i] == "and"
+            nom[i].capitalize()   
     return nom
 
 
