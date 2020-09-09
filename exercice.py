@@ -10,7 +10,7 @@ def capitaliser_pays(nom):
     nom = ' '.join(nom)
     place = nom.find('-')
     list(nom)[place+1] = list(nom)[place+1].upper()
-    
+    nom = 
     return nom
 
 
