@@ -1,37 +1,49 @@
-test_capitalize_first_letter (__main__.TestExercice) ... ok
-test_linking_words (__main__.TestExercice) ... ok
-test_lower_case_names (__main__.TestExercice) ... FAIL
-test_upper_case_names (__main__.TestExercice) ... FAIL
+test_capitalize_first_letter (__main__.TestExercice) ... ERROR
+test_linking_words (__main__.TestExercice) ... ERROR
+test_lower_case_names (__main__.TestExercice) ... ERROR
+test_upper_case_names (__main__.TestExercice) ... ERROR
 
 ======================================================================
-FAIL: test_lower_case_names (__main__.TestExercice)
+ERROR: test_capitalize_first_letter (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 39, in test_lower_case_names
-    'Certaines lettres ne doivent pas etre en minuscules'
-AssertionError: Lists differ: ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-bissau', 'Guyana'] != ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana']
-
-First differing element 53:
-'Guinea-bissau'
-'Guinea-Bissau'
-
-Diff is 894 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en minuscules
+  File "test_exercice.py", line 24, in test_capitalize_first_letter
+    output = list(map(exercice.capitaliser_pays, altered_names))
+  File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 12, in capitaliser_pays
+    nom[place+1] = nom[place+1].upper()
+TypeError: 'str' object does not support item assignment
 
 ======================================================================
-FAIL: test_upper_case_names (__main__.TestExercice)
+ERROR: test_linking_words (__main__.TestExercice)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_exercice.py", line 48, in test_upper_case_names
-    'Certaines lettres ne doivent pas etre en majuscule'
-AssertionError: Lists differ: ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-bissau', 'Guyana'] != ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana']
+  File "test_exercice.py", line 60, in test_linking_words
+    output = list(map(exercice.capitaliser_pays, altered_names))
+  File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 12, in capitaliser_pays
+    nom[place+1] = nom[place+1].upper()
+TypeError: 'str' object does not support item assignment
 
-First differing element 53:
-'Guinea-bissau'
-'Guinea-Bissau'
+======================================================================
+ERROR: test_lower_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 35, in test_lower_case_names
+    output = list(map(exercice.capitaliser_pays, altered_names))
+  File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 12, in capitaliser_pays
+    nom[place+1] = nom[place+1].upper()
+TypeError: 'str' object does not support item assignment
 
-Diff is 894 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en majuscule
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 44, in test_upper_case_names
+    output = list(map(exercice.capitaliser_pays, altered_names))
+  File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 12, in capitaliser_pays
+    nom[place+1] = nom[place+1].upper()
+TypeError: 'str' object does not support item assignment
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.002s
+Ran 4 tests in 0.001s
 
-FAILED (failures=2)
+FAILED (errors=4)

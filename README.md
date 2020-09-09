@@ -15,14 +15,15 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
-1/1 | Première lettre en majuscule
-1/1 | Mots de liaison en lettres minuscules
+0/1 | Première lettre en majuscule
+0/1 | Mots de liaison en lettres minuscules
 0/1 | Formater des noms minuscules
 0/1 | Formater des noms majuscules
-2/4 | **Total**
+0/4 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # Capitalisation de noms de pays
