@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 def capitaliser_pays(nom):
     nom = nom.split(' ')
-    nom = nom.upper()
+    nom = [nom[i]]
     return nom
 
 
