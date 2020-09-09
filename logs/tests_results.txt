@@ -10,8 +10,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 24, in test_capitalize_first_letter
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 5, in capitaliser_pays
-    nom = [nom[i].upper() for i in name]
-NameError: name 'name' is not defined
+    nom = [nom[i].upper() for i in range(nom)]
+TypeError: 'list' object cannot be interpreted as an integer
 
 ======================================================================
 ERROR: test_linking_words (__main__.TestExercice)
@@ -20,8 +20,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 60, in test_linking_words
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 5, in capitaliser_pays
-    nom = [nom[i].upper() for i in name]
-NameError: name 'name' is not defined
+    nom = [nom[i].upper() for i in range(nom)]
+TypeError: 'list' object cannot be interpreted as an integer
 
 ======================================================================
 ERROR: test_lower_case_names (__main__.TestExercice)
@@ -30,8 +30,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 35, in test_lower_case_names
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 5, in capitaliser_pays
-    nom = [nom[i].upper() for i in name]
-NameError: name 'name' is not defined
+    nom = [nom[i].upper() for i in range(nom)]
+TypeError: 'list' object cannot be interpreted as an integer
 
 ======================================================================
 ERROR: test_upper_case_names (__main__.TestExercice)
@@ -40,8 +40,8 @@ Traceback (most recent call last):
   File "test_exercice.py", line 44, in test_upper_case_names
     output = list(map(exercice.capitaliser_pays, altered_names))
   File "/home/runner/work/test-cours3-Jonathan-tsf/test-cours3-Jonathan-tsf/exercice.py", line 5, in capitaliser_pays
-    nom = [nom[i].upper() for i in name]
-NameError: name 'name' is not defined
+    nom = [nom[i].upper() for i in range(nom)]
+TypeError: 'list' object cannot be interpreted as an integer
 
 ----------------------------------------------------------------------
 Ran 4 tests in 0.001s
