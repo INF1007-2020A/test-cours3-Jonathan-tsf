@@ -7,7 +7,7 @@ def capitaliser_pays(nom):
         if nom[i] != "and":
             nom[i] = nom[i].capitalize()
     
-    nom = 
+    nom = ' '.join()
     return nom
 
 
