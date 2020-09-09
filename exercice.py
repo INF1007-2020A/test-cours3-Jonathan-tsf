@@ -19,7 +19,7 @@ def capitaliser_pays(nom):
 
 if __name__ == '__main__':
     pays = [
-        'Guinea-'
+        'Guinea-bi'
         'AfghanIstan',
         'albania',
         'algeria',
