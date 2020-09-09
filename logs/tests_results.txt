@@ -1,37 +1,9 @@
 test_capitalize_first_letter (__main__.TestExercice) ... ok
 test_linking_words (__main__.TestExercice) ... ok
-test_lower_case_names (__main__.TestExercice) ... FAIL
-test_upper_case_names (__main__.TestExercice) ... FAIL
-
-======================================================================
-FAIL: test_lower_case_names (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 39, in test_lower_case_names
-    'Certaines lettres ne doivent pas etre en minuscules'
-AssertionError: Lists differ: ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'B', 'Guyana'] != ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana']
-
-First differing element 53:
-'B'
-'Guinea-Bissau'
-
-Diff is 854 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en minuscules
-
-======================================================================
-FAIL: test_upper_case_names (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 48, in test_upper_case_names
-    'Certaines lettres ne doivent pas etre en majuscule'
-AssertionError: Lists differ: ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'B', 'Guyana'] != ['Afg[613 chars]', 'Grenada', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Guyana']
-
-First differing element 53:
-'B'
-'Guinea-Bissau'
-
-Diff is 854 characters long. Set self.maxDiff to None to see it. : Certaines lettres ne doivent pas etre en majuscule
+test_lower_case_names (__main__.TestExercice) ... ok
+test_upper_case_names (__main__.TestExercice) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.002s
+Ran 4 tests in 0.001s
 
-FAILED (failures=2)
+OK
