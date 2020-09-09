@@ -5,7 +5,7 @@ def capitaliser_pays(nom):
     nom = [nom[i].lower() for i in range(len(nom))]
     for i in range(len(nom)):
         if nom[i] != "and":
-            nom[i] = nom
+            nom[i] = nom[i]
     return nom
 
 
