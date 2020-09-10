@@ -1,9 +1,14 @@
-test_capitalize_first_letter (__main__.TestExercice) ... ok
-test_linking_words (__main__.TestExercice) ... ok
-test_lower_case_names (__main__.TestExercice) ... ok
-test_upper_case_names (__main__.TestExercice) ... ok
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+AttributeError: module 'exercice' has no attribute 'majuscule'
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 1 test in 0.000s
 
-OK
+FAILED (errors=1)
